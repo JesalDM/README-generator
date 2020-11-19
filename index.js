@@ -1,5 +1,8 @@
 // importing the inquirer package
 import inquirer from "inquirer";
+import fs from "fs";
+
+
 
 // array of questions for user
 const questions = [
@@ -52,15 +55,20 @@ const questions = [
 
 ];
 
-inquirer.prompt(questions);
 
 // function to write README file
 function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (err)=>
+    err ? console.log(err) : console.log('Success!'));
 }
 
 // function to initialize program
 function init() {
-
+    inquirer
+    .prompt(questions)
+    .then(data=>{
+        writeToFile('generatedReadme.md', "test data");
+    });
 }
 
 // function call to initialize program

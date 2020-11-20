@@ -5,6 +5,14 @@ return `# ${data.title}
 ## Description
 ${data.description}
 
+## Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
+* [License](#license)
+
 ## Installation
 ${data.installation}
 

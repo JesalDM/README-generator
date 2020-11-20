@@ -1,8 +1,7 @@
 // importing the inquirer package
 import inquirer from "inquirer";
 import fs from "fs";
-
-
+import generateMarkdown from "./utils/generateMarkdown.js";
 
 // array of questions for user
 const questions = [
@@ -67,7 +66,7 @@ function init() {
     inquirer
     .prompt(questions)
     .then(data=>{
-        writeToFile('generatedReadme.md', "test data");
+        writeToFile('generatedReadme.md', generateMarkdown(data));
     });
 }
 

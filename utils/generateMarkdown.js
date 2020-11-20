@@ -10,18 +10,7 @@ const licenseBadge =
 
 // function to generate the user selected license badge
 function generateBadge(data){
-    switch(data.license){
-        case "MIT": 
-            return licenseBadge.MIT;
-        case "ISC":
-            return licenseBadge.ISC;
-        case "Apache":
-            return licenseBadge.Apache;
-        case "GPL":
-            return licenseBadge.GPL;  
-        case "BSD":
-            return licenseBadge.BSD;
-    }  
+    return licenseBadge[data.license]; 
 }
        
 // function to generate markdown for README

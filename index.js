@@ -1,9 +1,11 @@
-// importing the inquirer package
+// importing the inquirer package and file system module
 import inquirer from "inquirer";
 import fs from "fs";
+
+// importing from generateMarkdown.js
 import generateMarkdown from "./utils/generateMarkdown.js";
 
-// array of questions for user
+// array of questions prompted to the user
 const questions = [
     {
         type: "input",
@@ -66,7 +68,7 @@ function init() {
     inquirer
     .prompt(questions)
     .then(data=>{
-        writeToFile('generatedReadme.md', generateMarkdown(data));
+        writeToFile('sampleReadme.md', generateMarkdown(data));
     });
 }
 

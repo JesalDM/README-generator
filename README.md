@@ -27,8 +27,8 @@ This ```sampleReadme.md``` file is generated dynamically from user's input using
 
 ## Usage
 1. In the command line/terminal within the directory that the project is downloaded, invoke the application using the command 'node index.js' 
-2. Provide answers to the list of questions prompted. 
-3. When all the answers are provided, you will get a "Success!" message and a file named ```sampleReadme.md``` will be generated in the same directory based on the responses. You can copy the file to the destination folder and rename it to ```README.md```.
+2. Provide answers to the list of questions prompted. For a new line within an answer, use \n before the character from where you want a new line to start.
+3. When all the answers are provided, you will get a "Success!" message and a file named ```sampleReadme.md``` will be generated in the same directory based on the responses. You can copy the file to the destination folder and rename it to ```README.md```. 
 4. An error will be displayed if the file generation is unsuccessful.
 
 ## Contributing
@@ -41,3 +41,11 @@ You can also reach out to me directly at [Email link](mailto:jesaldmehta@gmail.c
 
 ## License
 This project is licensed under the terms of the MIT license.
+
+## For Review
+* Github Repository URL: https://github.com/JesalDM/README-generator
+* Walkthrough video: 
+    - ![Installation-Demo](./assets/installation-demo.gif)
+    - ![Application-usage-Demo](./assets/application-usage-demo.gif)
+* Screenshot : ![Screenshot](./assets/commandline-prompt-sample-responses.png)
+* Link to sample Readme file: [Sample-Readme](./assets/sampleReadme.md)

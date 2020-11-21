@@ -63,9 +63,11 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
+    //using inquirer.prompt() method
     inquirer
     .prompt(questions)
     .then(data=>{
+        // calling the writeToFile function that creates/overwrites a sampleReadme.md file and writes the data that is returned from the generateMarkdown function in that file.
         writeToFile('sampleReadme.md', generateMarkdown(data));
     });
 }

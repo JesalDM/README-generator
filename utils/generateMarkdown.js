@@ -13,7 +13,7 @@ function generateBadge(data){
     return licenseBadge[data.license]; 
 }
        
-// function to generate markdown for README
+// function to generate markdown for README. It also provides the users the ability to add a new line within their responses in some of the sections.
 function generateMarkdown(data) {
 const badge = generateBadge(data);
 return `# ${data.title}
@@ -52,5 +52,5 @@ This project is licensed under the terms of the ${data.license} license.
 `;
 }
 
+// exporting the function generateMarkdown to be able to import to index.js
 export default generateMarkdown;
-

@@ -20,7 +20,7 @@ return `# ${data.title}
 ${badge}
 
 ## Description
-${data.description}
+${data.description.split("\\n").join('\n')}
 
 ## Table of Contents
 * [Installation](#installation)
@@ -31,20 +31,20 @@ ${data.description}
 * [License](#license)
 
 ## Installation
-${data.installation}
+${data.installation.split("\\n").join('\n')}
 
 ## Usage
-${data.usage}
+${data.usage.split("\\n").join('\n')}
 
 ## Contributing
-${data.contributing}
+${data.contributing.split("\\n").join('\n')}
 
 ## Tests
-${data.test}
+${data.test.split("\\n").join('\n')}
 
 ## Questions
 For any questions,
-Here is my Github profile link: [Github profile](https://github.com/${data.username})
+Here is my Github profile link: [Github profile](https://github.com/${data.username})    
 You can also reach out to me directly at [Email link](mailto:${data.email})
 
 ## License

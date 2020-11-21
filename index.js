@@ -52,10 +52,8 @@ const questions = [
         type: "input",
         name: "email",
         message: "What is your email address?",
-    },
-
+    }
 ];
-
 
 // function to write README file
 function writeToFile(fileName, data) {
@@ -72,6 +70,5 @@ function init() {
     });
 }
 
-  
 // function call to initialize program
 init();

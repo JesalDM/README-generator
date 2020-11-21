@@ -1,5 +1,5 @@
 # README-generator
-Professional README-generator
+Professional README-generator  
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## User Story
@@ -11,7 +11,7 @@ SO THAT I can quickly create a professional README for a new project
 ## Description
 The application quickly and easily generates a high-quality readme file using a command-line application. The Readme file includes eveything that a high-quality README should contain. It has sections that details what the application does, how to use the app, how to install it, how to make contributions, how to run the tests of the app, license under which the project is covered along with the license badge and also includes contact details to reach out. There is also a Table of Contents to quickly get to each of the sections.
 
-This 'sampleReadme.md' file is generated dynamically from user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer). 
+This ```sampleReadme.md``` file is generated dynamically from user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer). 
 
 ## Table of Contents
 * [Installation](#installation)
@@ -28,7 +28,7 @@ This 'sampleReadme.md' file is generated dynamically from user's input using the
 ## Usage
 1. In the command line/terminal within the directory that the project is downloaded, invoke the application using the command 'node index.js' 
 2. Provide answers to the list of questions prompted. 
-3. When all the answers are provided, you will get a "Success!" message and a sampleReadme.md file will be generated in the same directory based on the responses. You can rename the file to README.md.
+3. When all the answers are provided, you will get a "Success!" message and a file named ```sampleReadme.md``` will be generated in the same directory based on the responses. You can copy the file to the destination folder and rename it to ```README.md```.
 4. An error will be displayed if the file generation is unsuccessful.
 
 ## Contributing

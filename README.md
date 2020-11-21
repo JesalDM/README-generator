@@ -36,8 +36,8 @@ This application has been individually developed by Jesal Mehta. If you are inte
 
 ## Questions
 For any questions,
-Here is my Github profile link: [Github profile](https://github.com/JesalDM)
-You can also reach out to me directly at [Email link](mailto:jesaldmehta@gmail.com)
+Here is my Github profile link: [JesalDM](https://github.com/JesalDM)  
+You can also reach out to me directly at [jesaldmehta@gmail.com](mailto:jesaldmehta@gmail.com)
 
 ## License
 This project is licensed under the terms of the MIT license.

@@ -47,5 +47,6 @@ This project is licensed under the terms of the MIT license.
 * Walkthrough video: 
     - ![Installation-Demo](./assets/installation-demo.gif)
     - ![Application-usage-Demo](./assets/application-usage-demo.gif)
+    - ![sampleReadme-Demo](./assets/sampleReadme-demo.gif)
 * Screenshot : ![Screenshot](./assets/commandline-prompt-sample-responses.png)
 * Link to sample Readme file: [Sample-Readme](./assets/sampleReadme.md)
